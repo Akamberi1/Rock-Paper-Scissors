@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="background-image"></div>
+  <header>
+    <div class="header-text-div">
+      <h1 class="main-text">rock paper scissors</h1>
+    </div>
+    <div class="score">
+      <div class="score-text-div"><span class="score-text">score</span></div>
+      <div class="number-div">
+        <span class="number">0</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <p class="paragraphs You">You picked</p>
+    <p class="paragraphs the_guy_she_told_you_not_to_worry_about">the house picked</p>
+    <div class="triangle">
+      <img src="images/bg-triangle.svg" alt="a triangle">
+    </div>
+    <div class="paper" >
+      <img class="paper-image"src="images/icon-paper.svg" alt="">
+    </div>
+    <div class="scissors">
+      <img class="scissors-image" src="images/icon-scissors.svg" alt="">
+    </div>
+    <div class="rock">
+      <img class ="rock-image" src="images/icon-rock.svg" alt="">
+    </div>
+    <div class="shadow"></div>
+
+    <button class="rule-btn">Rules</button>
+  </main>
+  <div class="rules">
+    <div class="content"> <span class="rules-text">rules</span>
+      <img class="close-btn" src="images/icon-close.svg" alt="close button">
+    </div>
+    <div class="rule-image">
+      <img src="images/image-rules.svg" alt="rules" style="font-family: 'Barlow Semi Condensed', sans-serif;">
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <div class="bot">
+    <img class = "botImage" src="" alt="">
+  </div>
+  <div class="win-or-lose"></div>
+  <button class="playAgain">play again</button>
+
+
+  <div class="circle-container">
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+    <div class="circle circle-3"></div>
+    <div class="circle circle-center"></div>
+  </div>
+  <div class="circle-container-2">
+    <div class="circle-2 circle-1-2"></div>
+    <div class="circle-2 circle-2-2"></div>
+    <div class="circle-2 circle-3-2"></div>
+    <div class="circle-2 circle-center-2"></div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
